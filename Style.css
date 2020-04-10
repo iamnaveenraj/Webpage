@@ -1,0 +1,107 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(C:/Users/hp/OneDrive/Desktop/HTML&CSS/b.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:25px;
+	
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding:5px;
+	border: 2px solid transparent;
+	transition:0.6s ease;
+}
+ul li a:hover{
+	top:0;
+	left:-100p%;
+	width:100%;
+	height:2px;
+	color:yellow;
+	border:2px solid transparent;
+	background-color:yellow;
+	box-shadow: 0 0 10px yellow, 0 0 40px yellow, 0 0 80px yellow;
+	transition:0.5s ease;
+	background: linear-gradient(90deg,transparent,#2196f3)
+}
+.main{
+	max-width:1500px;
+	margin:auto;
+}
+.title{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+}
+.title h1{
+	color:White;
+	font-size:70px;
+}
+.button{
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+}
+.btn{
+	border:1px solid;
+	padding:10px 30px;
+	color:white;
+	text-decoration:none;
+	transition:0.6s ease;
+}
+.btn:hover{
+	top:0;
+	left:-100p%;
+	width:100%;
+	height:2px;
+	color:yellow;
+	border:2px solid transparent;
+	background-color:yellow;
+	box-shadow: 0 0 10px yellow, 0 0 40px yellow, 0 0 80px yellow;
+	transition:0.5s ease;
+	background: linear-gradient(90deg,transparent,#2196f3)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
